@@ -1,0 +1,99 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #040404;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #0F3D36;
+}
+
+li a.active {
+  color: white;
+  background-color: #ff0808;
+}
+
+}
+
+html {        /*Arriere plan du site*/
+  background-color : #F5AF5B;
+
+}
+
+.menu {         /*Menu*/
+  marge: 0;
+  position: absolute;
+  top:120px;
+  left:850px;
+  display: table-cell;
+}
+
+
+
+.menu1 {      /*Menu inscription et connexion*/
+  marge: 0;
+  position: absolute;
+  top:10px;
+  left:850px;
+  display: table-cell;
+}
+
+
+.retour {           /*Bouton Pseudo*/
+  color: #000000;
+  position: relative;
+  background-color: #FFFFFF;
+  marge: 0;
+  border : 2px solid black;
+  padding : 5px;
+  position : absolute;
+  top: 270px;
+  left:890px;
+}
+
+.pseudo {             /*Affichage du pseudo en haut à droite*/
+  position: absolute;
+  top:30px;
+  left: 1600px;
+}
+
+.inscription {      /*texte sur la page d'inscription*/
+  position: absolute;
+  left: 750px;
+  top: 250px;
+}
+
+.info {       /*champs d'entré pseudo et mdp inscription*/
+  position: absolute;
+  left: 850px;
+  top: 150px;
+}
+
+.bouton {         /* Bouton Send et Retour sur la page d'inscription*/
+  position: absolute;
+  left: 910px;
+  top: 370px;
+
+}
+
+
+.deco {
+  position:  absolute;
+  left: 900px;
+  top: 50;
+}
